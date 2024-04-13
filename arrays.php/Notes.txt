@@ -1,0 +1,11 @@
+ Mostly arrays is use in many company in php 
+ What is array 
+Array is a collection of data;
+it is use to store multiple value in a single variable
+
+ Types of arrays
+ 1. Indexed arrays :simplest form
+ 2. Associative arrays:key or value
+ 3. Multidimensional arrays:array ke andar array 2d array
+
+ 
