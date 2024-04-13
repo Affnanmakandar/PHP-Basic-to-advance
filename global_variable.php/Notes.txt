@@ -1,0 +1,51 @@
+some interview questions 
+
+INTRO:
+
+Types of super global variable
+$GLOBALS
+$_SERVER
+$_REQUEST
+$_POST
+$_GET
+$_FILES
+$_COOKIE
+$_SESSION
+$_ENV
+
+1. What are super global variables ?
+It is a default variable which is  already means  defined  pre defined in php.
+You can access these variables anywhere in project.
+example : $_COOKIE $_REQUEST etc are super global variables.
+
+what is global 
+ye jo global hota hai jitni bhi already defined variables hoti hai unki ek list utha ke deta hai
+isse hamlog khud defined karte hai
+example: $a = "10"; ye kisi bhi function ke andar nhi hota matlab curly brackets mei
+to know the list of variables print_r($_GLOBALS); 
+
+what is server ? 
+ye server ki saari information deta hai example :
+print_r($_SERVER); ye apache ki saari information aur paths provide karega.
+
+what is $_REQUEST ? 
+ye jo '$_REQUEST' hota hai ye bhi ek super global variable ka part hai
+isse hamlog jo data hai get aur post request dono se access kar sakte hai.
+example form mei diya hai request.html aur request.php.
+
+what is $_FILES ?
+ye jo pdf photo ya koi bhi file ko laane mei help karta hai.
+
+What is $_COOKIE ?
+Browser ke andar data save karna chahte hai toh uski _COOKIE use hoti hai.
+
+What is $_SESSION ?
+Ek page mei data hai wo ham dusre tab mei store karna chahte hai toh session use hota hai
+isme Data maintained rehta hai aur informations provide karta hai jaise hamne konsi
+libraries use kari hai code editor package extinsion etc.
+
+What is $_ENV
+Iska matlab hota hai environment
+ye environment ki puri information deta hai
+example extinsion package libraries ki information deta hai.
+
